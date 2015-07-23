@@ -1,0 +1,11 @@
+library(data.table)
+library(reshape2)
+library(dplyr)
+library(plyr)
+library(ggplot2)
+library(readr)
+
+cat("Reading data\n")
+train <- read_csv("./data/train.csv")
+test <- read_csv("./data//test.csv")
+sample_submission <- read_csv('./data/sample_submission.csv')
